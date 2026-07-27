@@ -8,7 +8,7 @@ export default function Navbar() {
   const { cartCount } = useCart();
 
   return (
-    <header className="border-b bg-white shadow-sm">
+    <header className="border-b  shadow-sm">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link
           href="/"
